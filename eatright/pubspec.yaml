@@ -1,0 +1,61 @@
+name: eatright
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  google_fonts: ^6.0.0
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.10+1
+  flutter_switch: ^0.3.2
+  smooth_page_indicator: ^1.2.0+3
+  pin_code_fields: ^8.0.1
+  flutter_svg_provider: ^1.0.7
+  flutter_staggered_grid_view: ^0.7.0
+  connectivity_plus: ^6.0.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:  ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/RubikMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RubikRegular.ttf
+          weight: 400
+    - family : Nunito
+      fonts:      
+        - asset: assets/fonts/NunitoBold.ttf
+          weight: 700
+        - asset: assets/fonts/NunitoExtraBold.ttf
+          weight: 800
+    - family : Abel
+      fonts:      
+        - asset: assets/fonts/AbelRegular.ttf
+          weight: 400
+    - family : Sen
+      fonts:
+        - asset: assets/fonts/SenRegular.ttf
+          weight: 400      
+        - asset: assets/fonts/SenBold.ttf
+          weight: 700
+        - asset: assets/fonts/SenSemiBold.ttf
+          weight: 600
+    - family : Inter
+      fonts:
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400      
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterExtraBold.ttf
+          weight: 800
